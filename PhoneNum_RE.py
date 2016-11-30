@@ -6,7 +6,7 @@
 
 # Regular Expression Matching:
 #	1. import regex module 'import re'
-#	2. Create regex object 're.compile()' - use a raw string
+#	2. Create regex object 're.compile()' - use raw string to allow escape characters
 #	3. Pass string into regex objects search() method - returns Match object
 #	4. Call Match object group() method to return matched text
 
