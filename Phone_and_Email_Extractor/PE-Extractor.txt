@@ -1,0 +1,23 @@
+
+# Using Python 3.5.2
+# Phone Number and Email Extractor
+
+#	[Will need to]
+#		1. Get text off of the clipboard
+#		2. Find all phone numbers and email addresses in the text
+#		3. Paste them onto the clipboard
+#		
+#	[How to do it]	
+#		1. Copy/Paste string using pyperclip module
+#		2. Create a regular expression for phone and one for emails
+#		3. Find all matches of both expressions
+#		4. Format the matches into a single string to paste
+#		5. Display a message if no matches found
+
+
+# Part 1: Create regex for phone numbers and email addresses
+#		create new file called PhoneAndEmail.py
+
+# Part 2: Find matches in the clipboard text
+
+# Part 3: Join matches into a string for the clipboard
