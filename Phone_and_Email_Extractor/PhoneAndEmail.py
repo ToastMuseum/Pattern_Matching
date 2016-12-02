@@ -27,13 +27,11 @@ matches = []
 
 for groups in phoneRegex.findall(text):
 	
-	phoneNum = '(' + str(groups[1]) +')'
+	phoneNum = '(' + str(groups[1]) +')' + '-'.join([groups[3], groups[5]])
 	
 	filter = re.compile(r'\(\d{3}\)')
 	if filter.search(groups[1]) != None:
 		phoneNum = '-'.join([groups[1],groups[3], groups[5]])
-	else:
-		phoneNum = '-'.join([phoneNum,groups[3], groups[5]])
 		
 	if groups[8] != '':
 		phoneNum += ' x' + groups[8]
